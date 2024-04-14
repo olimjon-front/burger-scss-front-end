@@ -1,0 +1,513 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-links {
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar-links .navbar-link__a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links .navbar-link__a:hover {
+  font-size: 17px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  background-color: blue;
+  opacity: 0.7;
+  color: white;
+}
+
+.btn {
+  width: 165px;
+  height: 49px;
+  top: 25px;
+  left: 1205px;
+  border-radius: 5px;
+  color: blue;
+}
+
+.btn:hover {
+  background: #F6762C;
+}
+
+.header-text {
+  margin-top: 100px;
+}
+
+.header-text p {
+  max-width: 300px;
+  height: 16px;
+  top: 286px;
+  left: 229px;
+  color: white;
+}
+
+.header-text p:hover {
+  font-size: 20px;
+  color: red;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header-text h1 {
+  max-width: 805px;
+  height: 121px;
+  top: 309px;
+  left: 229px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+}
+
+.header-text h1:hover {
+  font-size: 50px;
+  color: red;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header-text h6 {
+  max-width: 523px;
+  height: 86px;
+  top: 467px;
+  left: 229px;
+  gap: 0px;
+  opacity: 0.7px;
+  color: white;
+}
+
+.header-text h6:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: red;
+}
+
+.header-text .btn {
+  background-color: bisque;
+  width: 165px;
+  height: 49px;
+  top: 25px;
+  left: 1205px;
+  border-radius: 10px;
+  color: black;
+  margin-bottom: 150px;
+}
+
+.header-text .btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 10ms;
+  transition: 10ms;
+  background: #F6762C;
+  color: black;
+}
+
+.menu-titel {
+  background-color: black;
+}
+
+.menu-titel .box {
+  height: 350px;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.menu-titel .box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.burger-king-text h1 {
+  margin-top: 160px;
+  color: white;
+}
+
+.burger-king-text h1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: red;
+}
+
+.burger-king-text h6 {
+  color: white;
+}
+
+.burger-king-text h6:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.burger-king-text .opacity p {
+  color: #F6762C;
+}
+
+.burger-king-text .opacity p:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.burger-king-text .opacity .eight {
+  opacity: 0.5;
+}
+
+.burger-king-text .opacity .eight:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.burger-king-text .opacity .btn {
+  width: 165px;
+  height: 49px;
+  top: 25px;
+  left: 1205px;
+  border-radius: 5px;
+  color: blue;
+}
+
+.burger-king-text .opacity .btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 10s;
+  transition: 10s;
+  background-color: #F6762C;
+}
+
+.box2 {
+  margin-top: 60px;
+  margin-left: 250px;
+}
+
+.box2 h2 {
+  color: white;
+}
+
+.box2 h2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box2 p {
+  color: white;
+}
+
+.box2 p:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box2 .opacity p {
+  color: #F6762C;
+}
+
+.box2 .opacity p:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box2 .opacity .eight {
+  opacity: 0.5;
+}
+
+.box2 .opacity .eight:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box3 {
+  margin-top: 60px;
+}
+
+.box3 h2 {
+  color: white;
+}
+
+.box3 h2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box3 p {
+  color: white;
+}
+
+.box3 p:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box3 .opacity p {
+  color: #F6762C;
+}
+
+.box3 .opacity p:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box3 .opacity .eight {
+  opacity: 0.5;
+}
+
+.box3 .opacity .eight:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box4 {
+  margin-top: 60px;
+  margin-left: 250px;
+}
+
+.box4 h2 {
+  color: white;
+}
+
+.box4 h2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box4 p {
+  color: white;
+}
+
+.box4 p:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box4 .opacity p {
+  color: #F6762C;
+}
+
+.box4 .opacity p:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box4 .opacity .eight {
+  opacity: 0.5;
+}
+
+.box4 .opacity .eight:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box5 {
+  margin-top: 60px;
+}
+
+.box5 h2 {
+  color: white;
+}
+
+.box5 h2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box5 p {
+  color: white;
+}
+
+.box5 p:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box5 .opacity p {
+  color: #F6762C;
+}
+
+.box5 .opacity p:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box5 .opacity .eight {
+  opacity: 0.5;
+}
+
+.box5 .opacity .eight:hover {
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box6 .women {
+  margin-top: 100px;
+  width: 350px;
+  margin-left: 50px;
+}
+
+.box7 .five {
+  margin-top: 250px;
+  margin-left: 80px;
+}
+
+.box7 h5 {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  max-width: 368px;
+}
+
+.box7 h5:hover {
+  color: green;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box7 h1 {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.box7 h1:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box7 p {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.box7 p:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: green;
+}
+
+.box8 h1 {
+  color: white;
+}
+
+.box8 h1:hover {
+  color: yellow;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box9 {
+  margin-top: 50px;
+}
+
+.link {
+  margin-bottom: 30px;
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+}
+
+.link a:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.text-links {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.text-links li {
+  margin-top: 5px;
+}
+
+.text-links li a {
+  color: white;
+}
+
+.text-links i:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
